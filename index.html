@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model</title>
+    <style>
+        * {
+            padding:10px;
+            margin: 20px;
+            /* font-size:24px; */
+            box-sizing: border-box;
+        }
+        .h1 {
+            text-align: center;
+        }
+        .first-box {
+            background-color:pink;
+            padding:35px 20px 28px 20px;
+            border: 2px solid brown;
+            margin: 20px 20px 20px 285px;
+            height: 100px;
+            width: 600px;  
+            text-align: center;
+        }
+        .second-box {
+            background-color:yellow;
+            padding:35px 20px 28px 20px;
+            border: 2px solid brown;
+            margin: 20px 20px 20px 285px;
+            height: 100px;
+            width: 600px; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1">The Box Model</h1>
+    <div class="first-box">FIRST BOX ELEMENT CONTENT</div>
+    <div class="second-box">SECOND BOX ELEMENT CONTENT</div>
+</body>
+</html>
